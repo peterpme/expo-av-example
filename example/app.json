@@ -1,0 +1,22 @@
+{
+  "name": "@draftbit/ui-example",
+  "displayName": "Ui Example",
+  "expo": {
+    "name": "@draftbit/ui-example",
+    "slug": "draftbit-ui-example",
+    "description": "Example app for @draftbit/ui",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

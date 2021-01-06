@@ -9,12 +9,12 @@ import {
 } from "react-native";
 import { Provider, DefaultTheme, AudioPlayer } from "@draftbit/ui";
 
-export default class App extends React.Component {
-  render() {
+export default function App() {
+  return (
     <Provider theme={DefaultTheme}>
       <View style={{ flex: 1, backgroundColor: "orange" }}>
         <AudioPlayer />
       </View>
-    </Provider>;
-  }
+    </Provider>
+  );
 }

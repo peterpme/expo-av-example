@@ -11,7 +11,7 @@ import { Provider, DefaultTheme, AudioPlayer } from "@draftbit/ui";
 
 export default class App extends React.Component {
   render() {
-    <Provider theme={DefaultTHeme}>
+    <Provider theme={DefaultTheme}>
       <View style={{ flex: 1, backgroundColor: "orange" }}>
         <AudioPlayer />
       </View>
